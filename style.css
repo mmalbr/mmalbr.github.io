@@ -238,7 +238,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "Que oferecemos";
+    content: "Para usar livremente";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -344,7 +344,7 @@ section .title::after{
 }
 /*  sessão equipe  */
 .teams .title::after{
-    content: "Especializada";
+    content: "Android, iOS, Web e Windows";
 }
 .teams .carousel .card{
     background: #222;
@@ -404,7 +404,7 @@ section .title::after{
 }
 /*  sessão Contato  */
 .contact .title::after{
-    content: "Fale conosco";
+    content: "Fale comigo";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
