@@ -337,10 +337,25 @@ section .title::after{
     width: 87%;
 }
 .skills .skills-content .right .php::before{
-    width: 47%;
+    width: 80%;
 }
 .skills .skills-content .right .mysql::before{
-    width: 42%;
+    width: 100%;
+}
+.skills .skills-content .right .java::before{
+    width: 90%;
+}
+.skills .skills-content .right .dart::before{
+    width: 35%;
+}
+.skills .skills-content .right .flutter::before{
+    width: 35%;
+}
+.skills .skills-content .right .kotlin::before{
+    width: 35%;
+}
+.skills .skills-content .right .swift::before{
+    width: 25%;
 }
 /*  sessão equipe  */
 .teams .title::after{
