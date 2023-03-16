@@ -1,37 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<script>
-    // Seu código para enviar o formulário
-
-    // Função para substituir o texto
-    function replaceText() {
-        const successMessage = document.getElementById('my-form-status');
-        successMessage.innerText = 'Mensagem enviada com sucesso!'; // Aqui você pode colocar a mensagem em português
-    }
-
-    // Adiciona um ouvinte para quando a resposta for recebida
-    const form = document.getElementById('my-form');
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
-        const xhr = new XMLHttpRequest();
-        xhr.open(form.method, form.action);
-        xhr.setRequestHeader('Accept', 'application/json');
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState !== XMLHttpRequest.DONE) return;
-            if (xhr.status === 200) {
-                replaceText(); // Chama a função para substituir o texto
-                form.reset(); // Reseta o formulário
-            } else {
-                alert('Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente mais tarde.');
-            }
-        };
-        const formData = new FormData(form);
-        xhr.send(formData);
-    });
-</script>
-	
-	
      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6944068380993727"
      crossorigin="anonymous"></script>
 	 
