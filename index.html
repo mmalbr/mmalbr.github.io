@@ -315,7 +315,11 @@ $(document).ready(function(){
     $('#email').inputmask({ alias: "email" });
 });
 
-$('#my-form-status').text('Mensagem enviada com sucesso!');		
+$(document).ready(function() {
+  // Substitui o texto da mensagem de sucesso em inglês pelo texto em português
+  $('#success-message').html($('#my-form-status').html().replace('Thanks for your submission!', 'Mensagem enviada com sucesso!'));
+});
+	
 	</script>
 
 	<!-- Place this script at the end of the body tag -->
