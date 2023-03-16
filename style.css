@@ -345,6 +345,9 @@ section .title::after{
 .skills .skills-content .right .java::before{
     width: 90%;
 }
+.skills .skills-content .right .python::before{
+    width: 75%;
+}
 .skills .skills-content .right .dart::before{
     width: 55%;
 }
