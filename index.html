@@ -265,7 +265,7 @@
                             <input type="text" name="Nome" placeholder="Nome" required>
                         </div>
                         <div class="field email">
-                            <input type="email" name="Email" placeholder="Email" required>
+                            <input type="email" name="Email" placeholder="Email" id="email" required>
                         </div>
                     </div>
                     <div class="field">
@@ -311,6 +311,10 @@
 $(document).ready(function(){
     $('#whatsapp').inputmask("+99 99 99999-9999");
 });
+$(document).ready(function(){
+    $('#email').inputmask({ alias: "email" });
+});
+		
 	</script>
 
 	<!-- Place this script at the end of the body tag -->
