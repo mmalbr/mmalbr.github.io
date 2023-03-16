@@ -272,7 +272,7 @@ section .title::after{
 }
 /*  sessão especialidades  */
 .skills .title::after{
-    content: "Que faço";
+    content: "Algumas ;)";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
