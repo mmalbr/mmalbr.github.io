@@ -306,6 +306,16 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
+<script>
+  const successMessage = "Thanks for your submission!";
+  const successMessagePT = "Mensagem enviada com sucesso!";
+  
+  const formStatus = document.getElementById("my-form-status");
+  if (formStatus.innerHTML.includes(successMessage)) {
+    formStatus.innerHTML = successMessagePT;
+  }
+</script>	
+	
 </body>
 	<script>
 $(document).ready(function(){
@@ -315,11 +325,6 @@ $(document).ready(function(){
     $('#email').inputmask({ alias: "email" });
 });
 
-$(document).ready(function() {
-  // Substitui o texto da mensagem de sucesso em inglês pelo texto em português
-  $('#success-message').html($('#my-form-status').html().replace('Thanks for your submission!', 'Mensagem enviada com sucesso!'));
-});
-	
 	</script>
 
 	<!-- Place this script at the end of the body tag -->
