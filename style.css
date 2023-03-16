@@ -346,16 +346,16 @@ section .title::after{
     width: 90%;
 }
 .skills .skills-content .right .dart::before{
-    width: 35%;
+    width: 55%;
 }
 .skills .skills-content .right .flutter::before{
-    width: 35%;
+    width: 55%;
 }
 .skills .skills-content .right .kotlin::before{
-    width: 35%;
+    width: 55%;
 }
 .skills .skills-content .right .swift::before{
-    width: 25%;
+    width: 50%;
 }
 /*  sessão equipe  */
 .teams .title::after{
