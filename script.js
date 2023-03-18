@@ -55,7 +55,7 @@ $(document).ready(function(){
         $('.carousel2').owlCarousel({
         margin:20,
         loop:true,
-        autoplayTimeOut:2000,
+        autoplayTimeOut:100,
         autoplayHoverPauser:true,
         responsive:{
             0:{
