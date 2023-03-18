@@ -243,15 +243,15 @@ section .title::after{
 
 
 .youtube{
-    background: red;
-    color: gree;
+    background: #111;
+    color: #fff;
 }
 .youtube .title::before{
-    background: blue;
+    background: #fff;
 }
 .youtube .title::after{
-    background: white;
-    content: "xxxxxxxxxxx";
+    background: #111;
+    content: "Minhas produções";
 }
 
 
