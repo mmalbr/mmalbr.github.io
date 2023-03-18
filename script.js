@@ -58,11 +58,11 @@ $(document).ready(function(){
         autoplayTimeOut:100,
         autoplayHoverPauser:true,
         responsive:{
-            0:{
+            100:{
                 items:1,
                 nav:true
             },
-            600:{
+            700:{
                 items:2,
                 nav:true
             },
