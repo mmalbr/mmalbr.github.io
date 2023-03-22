@@ -242,6 +242,22 @@ section .title::after{
 }
 
 
+/*  sessão serviços */
+.services2, .teams2{
+    background: #111;
+    color: #fff;
+}
+.services2 .title::before,
+.teams2 .title::before{
+    background: #fff;
+}
+.services2 .title::after,
+.teams2 .title::after{
+    background: #111;
+    content: "Uso livre";
+}
+
+
 .youtube{
     background: #111;
     color: #fff;
